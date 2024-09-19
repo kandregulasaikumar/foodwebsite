@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Flavour Haven</title>
+</head>
+<style>
+.header1 h3{
+    color: white;
+  
+}
+.header1 p{
+    color: white;
+}
+@media (max-width: 760px) {
+    .header1 h3{
+    color: black;
+    font-weight: 600;
+    font-size: 30px;
+}
+.header1 h1{
+    font-weight: 600;
+}
+.header1 p{
+    color: black;
+}
+}
+</style>
+
+<body>
+    <!-- ...................navbar........................ -->
+    <nav class="navbar  navbar-expand-lg fixed-top navbar-light ">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo.png" alt="" srcset="" width="100">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#"> HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#about-us">ABOUT US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#menu">MENU</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#reservation">RESERVATION</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#blog">BLOG</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" href="#contact">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid header">
+        <div class="row">
+            <div class="col-12 col-md-12 col-lg-6">
+                <div class="header1">
+                    <h3>Taste the flavours of</h3>
+                    <h1 class="text-warning">SOUTH INDIA</h1>
+                    <P class="para">Lorem ipsum dolor sit amet. Maxime tempora ipsam beatae debitis minus
+                        quidem
+                        deleniti magni odio officia.</P>
+                    <div class="buttons">
+                        <button class="button1" type="button">Book Table</button>
+                        <button class="button2">Our Menu</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- .................about........... -->
+
+    <div class="container mt-5" id="about-us">
+        <div class="row">
+            <div class="col-12 col-lg-6 about ">
+                <h2>About</h2>
+                <h1 class="text-dark">FOOD LOVER</h1>
+                <P class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nam sed, in
+                    tenetur commodi enim
+                    saepe voluptatem, sint adipisci quia voluptas sapiente libero quaerat! Id at magni eligendi aliquam
+                    veniam!
+                    veniam aut laudantium veritatis nostrum pariatur cum.
+                <P class="text-dark">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus nam sed, in
+                    tenetur commodi enim
+                    saepe voluptatem, sint adipisci quia voluptas sapiente libero quaerat! Id at magni eligendi aliquam
+                    veniam!
+                    veniam aut laudantium veritatis nostrum pariatur cum.
+                <h4>Read More -></h4>
+            </div>
+            <div class="col-12 col-lg-6 ">
+                <img src="images/about.jpg" alt="" srcset="" id="img">
+            </div>
+        </div>
+    </div>
+
+    <!-- .................menu.................. -->
+    <div class="container-fluid mt-2 mb-5" id="menu">
+        <div class="row">
+            <div class="col-12 text-center">
+                <div class="menu-desin pt-5">
+                    <i class="fa-solid fa-utensils"></i>
+                    <h1 class="text-white">Food Lover</h1>
+                    <h1>RESTURANT MENU</h1>
+                </div>
+            </div>
+            <div class="col-12 text-center">
+                <div class="menu-buttons pt-2">
+                    <button type="button" class="btn btn-secondary" id="alldishes">All </button>
+                    <button type="button" class="btn btn-secondary" id="dinner">Dinner</button>
+                    <button type="button" class="btn btn-secondary" id="lunch">Lunch</button>
+                    <button type="button" class="btn btn-secondary" id="drinks">Drinks</button>
+                    <button type="button" class="btn btn-secondary" id="starters">Starters</button>
+                </div>
+            </div>
+        </div>
+        <div class="row " id="row-1">
+            <div class="col-12 col-md-3 menu-box  mb-3">
+                <div class="card " id="sai">
+                    <img src="menuimg/dinner-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Chicken Tikka</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 menu-box  mb-3">
+                <div class="card" id="sai">
+                    <img src="menuimg/dinner-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Popcorn chicken</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 menu-box  mb-3">
+                <div class="card" id="sai">
+                    <img src="menuimg/dinner-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Butter Chicken</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row " id="row-2">
+            <div class="col-12 col-md-3 menu-box  mb-3">
+                <div class="card " id="sai">
+                    <img src="menuimg/lunch-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Spinach</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 menu-box  mb-3">
+                <div class="card" id="sai">
+                    <img src="menuimg/lunch-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Broccoli</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 menu-box  mb-3">
+                <div class="card" id="sai">
+                    <img src="menuimg/lunch-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Carrots</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row " id="row-3">
+            <div class="col-12 col-md-3 menu-box  mb-3">
+                <div class="card " id="sai">
+                    <img src="menuimg/drink-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Pepsi</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 menu-box  mb-3">
+                <div class="card" id="sai">
+                    <img src="menuimg/drink-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Smoothie</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 menu-box  mb-3">
+                <div class="card" id="sai">
+                    <img src="menuimg/drink-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Hot Chocolate</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row " id="row-4">
+            <div class="col-12 col-md-3 menu-box  mb-3">
+                <div class="card " id="sai">
+                    <img src="menuimg/dinner-3.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Stuffed Mushrooms</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 menu-box  mb-3">
+                <div class="card" id="sai">
+                    <img src="menuimg/st-1.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Caprese Skewers</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 menu-box  mb-3">
+                <div class="card" id="sai">
+                    <img src="menuimg/st-2.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cheese Quesadillas</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- .....................today sp deshes.................. -->
+
+    <div class="container bg-white">
+        <div class="spHeader">
+            <h4 class="text-center">Deals Today</h4>
+            <h1 class="text-center">TODAY SPECIAL DISH</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-4 mt-2 d-flex justify-content-center">
+                <div class="card" id="spcard">
+                    <img src="menuimg/dp-14.jpeg" class="card-img-top" alt="..." id="chicken">
+                    <div class="card-body">
+                        <h2 style="color: orange;">Chicken Makai</h2>
+                        <p class="text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem,
+                            exercitationem,</p>
+
+                        <h4 style="font-weight: 600;">Starts At <span style="color: orange;">$249</span></h4>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mt-2  d-flex justify-content-center">
+                <div class="card spcard" id="spcard">
+                    <img src="menuimg/dp-13.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 style="color: orange;" class="head-sai2">Apollo Fish</h2>
+                        <p class="text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem,
+                            exercitationem,</p>
+                        <h4 style="font-weight: 600;">Starts At <span style="color: orange;">$249</span></h4>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 mt-2  d-flex justify-content-center">
+                <div class="card spcard" id="spcard">
+                    <img src="menuimg/dp-11.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h2 style="color: orange;" class="head-sai">Hakka Noodles</h2>
+                        <p class="text-dark">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem,
+                            exercitationem,</p>
+                        <h4 style="font-weight: 600;">Starts At <span style="color: orange;">$249</span></h4>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ......................table book.............. -->
+    <section class="booking-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="booking-form">
+                        <h3 class="border-h1"><span class="border-custom"> BOOK </span> YOUR TABLE</h3>
+                        <form>
+                            <div class="form-group">
+                                <input type="text" class="form-control mt-2" placeholder="Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" class="form-control mt-2" placeholder="Email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="date" class="form-control mt-2" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control mt-2" rows="3" placeholder="Comments"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary booking-btn mt-2">Book Now!</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ...................special OFFERS.................. -->
+    <div class="container mt-5">
+        <div class="row">
+            <!-- Special Offers Column -->
+            <div class="col-12 col-md-6">
+                <div class="special-heading">
+                    <h4><span>From</span> the Menu</h4>
+                    <h1>SPECIAL OFFERS</h1>
+                </div>
+
+                <!-- First Offer -->
+                <div class="special-1">
+                    <div class="special-img"><img src="Special_offer/sp3.jpg" alt=""></div>
+                    <div class="special-heading-inside">
+                        <h3>Fish Curry</h3>
+                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae qui</p>
+                    </div>
+                    <div class="special-rate">
+                        <h1>&#8377;249</h1>
+                        <h5><s>&#8377;599</s></h5>
+                    </div>
+                </div>
+
+                <!-- Second Offer -->
+                <div class="special-1">
+                    <div class="special-img"><img src="Special_offer/sp4.jpg" alt=""></div>
+                    <div class="special-heading-inside">
+                        <h3>Chicken Tikka</h3>
+                        <p class="text-dark">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae qui</p>
+                    </div>
+                    <div class="special-rate">
+                        <h1>&#8377;499</h1>
+                        <h5><s>&#8377;999</s></h5>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Image Column -->
+            <div class="col-12 col-md-6">
+                <div class="row left-img">
+                    <div class="col-6">
+                        <img src="Special_offer/sp1.jpg" alt="" class="img-fluid mb-2">
+                    </div>
+                    <div class="col-6">
+                        <img src="Special_offer/sp2.jpg" alt="" class="img-fluid mb-2">
+                    </div>
+                    <div class="col-6">
+                        <img src="Special_offer/sp2.jpg" alt="" class="img-fluid mb-2">
+                    </div>
+                    <div class="col-6">
+                        <img src="Special_offer/sp1.jpg" alt="" class="img-fluid mb-2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ............................constomer feedback...................... -->
+    <div class="banner-section mt-5 pt-5 pb-5 d-flex justify-content-top align-items-center flex-column" id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner-section-info d-flex flex-column align-items-center">
+                        <p class="person-icon"><i class="fa-regular fa-user"></i></p>
+                        <p class="feedback-name">FOOD LOVER </p>
+                        <h1 class="banner-section-header mb-3">CUSTOMER FEEDBACK</h1>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="d-flex flex-column  align-items-center">
+                        <div class="card card-body card-body1 ">
+                            <h1 class="feedback-name align-self-end">"</h1>
+                            <p class="feedback-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Curabitur eleifend. Donec quis justo ex.
+                            </p>
+                            <p class="feedback-name"><strong>Frinton Van</strong></p>
+                        </div>
+                        <img src="images/person1.jpeg" class="feedbacker-img mt-3 mb-3" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="card card-body card-body1">
+                            <h1 class="feedback-name align-self-end">"</h1>
+                            <p class="feedback-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Curabitur eleifend. Donec quis justo ex. </p>
+                            <p class="feedback-name"><strong>Anna Van</strong></p>
+                        </div>
+                        <img src="images/person2.jpeg" class="feedbacker-img mt-3 mb-3" />
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 mb-3">
+                    <div class="d-flex flex-column align-items-center">
+                        <div class="card card-body card-body1">
+                            <h1 class="feedback-name align-self-end">"</h1>
+                            <p class="feedback-description">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                                Curabitur eleifend. Donec quis justo ex. </p>
+                            <p class="feedback-name"><strong>Fillipe Van</strong></p>
+                        </div>
+                        <img src="images/person3.jpeg" class="feedbacker-img mt-3 mb-3" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="about-section pt-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-3  ">
+                    <div class="d-flex flex-column">
+                        <div class="about-info-statics-round p-3">
+                            <h1 class="about-info-statics-count align-self-center">220+</h1>
+                        </div>
+                        <h1 class="about-info-name align-self-center mt-3">Best Dishes</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3  ">
+                    <div class="d-flex flex-column">
+                        <div class="about-info-statics-round p-3">
+                            <h1 class="about-info-statics-count align-self-center">50+</h1>
+                        </div>
+                        <h1 class="about-info-name align-self-center mt-3">Awards Won</h1>
+                    </div>
+                </div>
+                <div class="col-12 col-md-3 ">
+                    <div class="d-flex flex-column">
+                        <div class="about-info-statics-round p-3">
+                            <h1 class="about-info-statics-count align-self-center">80+</h1>
+                        </div>
+                        <h1 class="about-info-name align-self-center mt-3">Our Chefs</h1> <!-- Fixed 'Cheifs' typo -->
+                    </div>
+                </div>
+                <div class="col-12 col-md-3  ">
+                    <div class="d-flex flex-column">
+                        <div class="about-info-statics-round p-3">
+                            <h1 class="about-info-statics-count align-self-center">200+</h1>
+                        </div>
+                        <h1 class="about-info-name align-self-center mt-3">Daily Customers</h1>
+                        <!-- Fixed 'Custmers' typo -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- .....................Subscribe to our Newsletter.............. -->
+    <div class="container-fluid mt-2" style="background-color:  rgba(255, 166, 0, 0.945);" id="blog">
+        <div class="row">
+            <div class="col-12 subscribe">
+                <div class="subscribe-icon-2"> <i class="fa-solid fa-envelope-open-text" class="text-white"></i></div>
+                <h2 class="text-white">Subscribe to our Newsletter</h2>
+                <p class="text-white sai">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat sequi ex nam
+                    officia. Dolorum odio nihil </p>
+                <div class="subscribe-butun">
+                    <input type="text" placeholder="Enter your Email">
+                    <button>Subscribe</button>
+                </div>
+                <p class="subscribe-end">your Email is safe with us. We won't spam you</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="buttom-main bg-dark" id="contact">
+        <div class="container text-color">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="bottom1 ">
+                        <img src="images/logo.png" width="120" alt="">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error nobis vel possimus aut earum
+                            en</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit...</p>
+                        <h4>Read More</h4>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="bottom2">
+                        <h2>Opening Hours</h2>
+                        <div class="h6buttom">
+                            <h6>MONDAY <span>:Closed</span></h6>
+                            <h6>TUE-FRI<span>:------10PM-9PM</span></h6>
+                            <h6>SATURDAY <span>--10PM-11PM</span></h6>
+                            <h6>SUNDY <span>--------10PM-12PM</span></h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6  col-lg-3">
+                    <div class="bottom3">
+                        <h2>Latest Tweets</h2>
+                        <div class="pbuttom">
+                            <p>sed veniam nisl a au at ncidnt volutpat www.https://twitter.com.
+                                <span>2 Hours ago</span>
+                            </p>
+                            <p>sed veniam nisl a au at ncidnt volutpat www.https://twitter.com.
+                                <span>5 Hours ago</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <div class="buttom4">
+                        <h2>Instragarm</h2>
+                        <div class="imgbuttom">
+                            <img src="Special_offer/sp1.jpg" alt="" srcset="">
+                            <img src="Special_offer/sp2.jpg" alt="" srcset="">
+                            <img src="Special_offer/sp2.jpg" alt="" srcset="">
+                            <img src="Special_offer/sp1.jpg" alt="" srcset="">
+                            <img src="Special_offer/sp1.jpg" alt="" srcset="">
+                            <img src="Special_offer/sp2.jpg" alt="" srcset="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ....................the End................ -->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 bg-secondary">
+                <p class="text-center pt-2">Copyright 2024 & Food LOver Restaurant</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="index.js">
+
+    </script>
+
+
+</body>
+
+</html>

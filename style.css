@@ -1,0 +1,532 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@600&family=Roboto:wght@400&display=swap');
+
+
+*{
+    font-family: 'Merriweather', serif;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5); 
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+   
+}
+
+.navbar-light .nav-link {
+    color: white !important;
+}
+
+.navbar-light .nav-link:hover {
+    color: rgba(255, 255, 255, 0.7); 
+}
+
+
+
+.header{
+    background-image: url('images/sai3.jpg');
+    width: 100%;
+    height: 90vh;
+    background-size: cover;
+}
+
+.header1{
+    margin-top: 130px;
+}
+.buttons button {
+    border: none;
+    width: 30%;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.button1 {
+    background-color: orange;
+}
+
+ /* .................about...........  */
+ #img {
+    width: 100%;
+    height: 70vh;
+    margin-top: 30px;
+    margin-left: 10px;
+    box-shadow: -20px -20px 0px rgb(255, 165, 0);
+}
+
+.about h2 {
+    margin-top: 30px;
+    color: rgba(255, 166, 0, 0.945);
+    font-weight: 500;
+    border-top: 3px solid rgba(255, 166, 0, 0.945);
+    padding-top: 10px;
+    width: 100px;
+}
+
+.about h1 {
+    font-weight: 550;
+}
+
+.about p {
+    padding-top: 15px;
+}
+
+.about h4 {
+    color: rgba(255, 166, 0, 0.945);
+    font-weight: 540;
+}
+
+
+/* ..........................menu........... */
+#menu{
+    background-color:#d6d8db;
+}
+.menu-buttons button{
+    width: 15%;
+    margin-left: 3px;
+}
+.menu-buttons button:hover{
+    background-color: orange;
+}
+.menu-box{
+    width: 250px;
+    margin-top: 10px;
+}
+#sai{
+    width: 240px;
+    height: 290px;
+}
+.menu-box img{
+    width: 240px;
+    height: 250px;
+}
+
+#row-1{
+    display: flex;
+    justify-content: center;
+}
+#row-2{
+    display: none;
+    justify-content: center;
+}
+#row-3{
+    display: none;
+    justify-content: center;
+}
+#row-4{
+    display: none;
+    justify-content: center;
+
+}
+
+.menu-desin i{
+  font-size: 50px;
+  color: orange;
+}
+.menu-desin h1{
+    font-weight: 600;
+}
+
+
+/* ....................todaydels.............. */
+
+.card{
+    border: none;
+}
+
+#spcard{
+    width: 16rem;
+}
+#spcard img{
+    border-radius: 10px;
+}
+.spHeader h4{
+    color: orange;
+    font-size: 30px;
+
+}
+
+.spHeader h1{
+    font-weight: 600;
+}
+
+/* ..................form.................. */
+
+.booking-section {
+    background-image: url('formbg.jpg'); /* replace with your image */
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .booking-form {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 30px;
+    color: #fff;
+    border-radius: 5px;
+  }
+
+  .form-control {
+    background-color: #fff;
+  }
+
+  .booking-btn {
+    background-color: #FF8C00;
+    border: none;
+  }
+
+.border-custom{
+    border-top: 2px solid  #FF8C00;
+}
+.border-h1{
+    font-weight: 600;
+}
+/* ........................speacial offer................ */
+.special-1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 7px 7px 5px whitesmoke;
+
+}
+
+.special-img img {
+    width: 90px;
+    border-radius: 70%;
+    height: 90px;
+
+}
+
+.special-heading-inside {
+    padding-left: 20px;
+}
+
+.special-heading span{
+  border-top: 3px solid  rgba(255, 166, 0, 0.945);
+}
+.special-heading h4{
+    color: rgba(255, 166, 0, 0.945);
+}
+.special-heading h1{
+    font-weight: 600;
+}
+.special-rate{
+    margin-right: 14px;
+    margin-top: 20px;
+}
+.special-1 h3{
+    font-weight: 600;
+    color:  rgba(255, 166, 0, 0.945);
+}
+.special-rate h1{
+    color:rgba(255, 166, 0, 0.945);
+    font-weight: 600;
+}
+.special-rate h5{
+     padding-left: 15px;
+    color:rgba(0, 0, 0, 0.226);
+}
+.left-img img{
+width: 170px;
+margin: 5px;
+border-radius: 10px;
+}
+
+/*  for the banner section */
+.banner-section {
+    background-image: url(banner-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 5rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bi-people {
+    color: orange;
+    font-size: 30%;
+    font-weight: 700;
+}
+
+.banner-section-header {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.6);
+    margin: 0;
+    line-height: 1.2;
+   
+}
+
+.card-body1 {
+    border-radius: 10px;
+    background-color: hsla(0, 0%, 96%, 0.815);
+    backdrop-filter: blue(20);
+    
+}
+.feedback-description {
+    color: #000;
+    font-weight: 500;
+}
+.person-icon{
+    color: orange;
+    font-size: 30px;
+}
+.feedback-name {
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.feedbacker-img {
+    text-align: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+
+
+.about-info-statics-round {
+    border: solid 3px orange;
+    border-radius: 100px;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+   
+}
+
+.about-info-statics-count {
+    text-align: center;
+    color: orange;
+    font-size: 40px;
+    font-weight: 500;
+}
+
+.about-info-name {
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+   
+}
+
+/* ................Subscribe to our Newsletter............ */
+
+.subscribe-icon-2{
+    border: 4px solid white;
+    border-radius: 100px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    padding-top: 20px;
+    font-size: 50px;
+    margin-top: 8px;
+    color: #fff;
+}
+.subscribe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.subscribe-butun input{
+    width: 400px;
+    padding: 6px;
+    border-radius: 10px;
+}
+.subscribe-butun button{
+    width: 100px;
+    padding: 6px;
+    background: #000;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.subscribe-end{
+margin-right: 200px;
+}
+
+/* ..................buttom........... */
+.bottom1 p{
+    color: #fff;
+}
+.bottom1 h4{
+    color: orange;
+    padding-bottom: 20px;
+}
+
+.bottom2 h2{
+    color: #fff;
+}
+.bottom2 h6{
+    color: orange;
+}
+.bottom2 h6 span{
+    color: #fff;
+}
+.bottom3,h2,p{
+    color: #fff;
+}
+.bottom3,p span{
+    color: orange;
+}
+.buttom4{
+    color: #fff;
+}
+.buttom4 img{
+    width: 100%;
+    margin-top: 5px;
+}
+
+.bottom2{
+    margin-top: 20px;
+}
+.h6buttom{
+margin-top: 33px;
+}
+.bottom3{
+    margin-top: 20px;
+}
+.pbuttom{
+    margin-top: 28px;
+}
+.buttom4{
+    margin-top: 20px;
+}
+
+.imgbuttom{
+margin-top:28px ;
+margin-bottom: 10px;
+} 
+
+
+
+
+
+
+
+
+
+@media (max-width: 760px) {
+    .header{
+        background-image: url('formbg.jpg');
+        width: 100%;
+        height: 80vh;
+        background-size: cover;
+    }
+   
+   
+    .mainsupport span{
+       font-size: 6px;
+    }
+    .menu-buttons button{
+        width: 15%;
+        font-size: 8px;
+    }
+    .banner-section-header{
+        font-size: 20px;
+    }
+    .subscribe p {
+        width: 300px; 
+    }
+    .subscribe-butun input {
+        width: 300px; 
+       
+    }
+    .subscribe-butun button {
+        width: 100px;
+        margin-top: 5px; 
+    }
+    .subscribe-icon-2 {
+        width: 60px; 
+        height: 60px;
+        font-size: 30px;
+    }
+    .buttom4 img{
+        width: 85px;
+    }
+    .subscribe-end{
+        margin-right: 15px;
+        }
+        .buttom4 img{
+            width: 120px;
+            height: 80px;
+            margin-left: 10px;
+        }
+}
+
+@media (min-width: 768px) {
+   
+    .header{
+        background-image: url('images/sai3.jpg');
+        width: 100%;
+        height: 90vh;
+        background-size: cover;
+    }
+   
+    .header1{
+        margin-left: 150px;
+        
+     }
+     .header1 p{
+        width: 50%;
+        font-size: 25px;
+
+     }
+     #spcard{
+        width: 12rem;
+    }
+    #spcard h2{
+        font-size: 20px;
+    }
+    #chicken{
+        height: 190px;
+    }
+    .left-img{
+        margin-top: 100px;
+    }
+    /* .........subscribe......... */
+    .buttom4 img{
+        width: 90px;
+        height: 60px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .header1{
+       margin-left: 70px;
+    }
+    .header1 p{
+        font-size: 15px;
+        width: 100%;
+     }
+     #spcard{
+        width: 16rem;
+    }
+    #spcard h2{
+        font-size: 25px;
+    }
+    #chicken{
+        height: 258px;
+    }
+    .left-img{
+        margin-top: 0px;
+    }
+   /* .................Subscribe to our Newsletter.............. */
+.buttom4 img{
+    width: 65px;
+}
+}
